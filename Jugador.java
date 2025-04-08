@@ -1,0 +1,15 @@
+package Proyecto;
+
+public class Jugador {
+    private ListaObjetos inventario;
+    private Casilla posicion;
+    private boolean ganado = false;
+		private Jugador miJugador = new Jugador(); 
+
+    public Jugador() {
+        this.inventario = new ListaObjetos();
+    }
+
+    public static Jugador getMiJugador() {
+        return miJugador; 
+    }
