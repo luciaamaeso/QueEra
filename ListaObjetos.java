@@ -25,7 +25,7 @@ public class ListaObjetos {
         return null; // En caso de no encontrar el objeto devuelve null
     }
 
-    public Iterator<Objeto> getIterator() {
+    private Iterator<Objeto> getIterator() {
         return lista.iterator();
     }
 
